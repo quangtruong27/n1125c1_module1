@@ -1,4 +1,4 @@
-//Tính số nút trên biển số xe
+package module_1;//Tính số nút trên biển số xe
 
 import java.util.Scanner;
 

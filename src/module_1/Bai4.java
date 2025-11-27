@@ -1,4 +1,4 @@
-//Tính điểm trung bình của học sinh
+package module_1;//Tính điểm trung bình của học sinh
 
 import java.util.Scanner;
 

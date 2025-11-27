@@ -1,4 +1,4 @@
-//Phép toán cơ bản giữa hai số
+package module_1;//Phép toán cơ bản giữa hai số
 
 import java.util.Scanner;
 

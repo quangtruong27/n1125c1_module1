@@ -1,14 +1,14 @@
-//Tìm giá trị của biến a, i, j
+package module_1;//Tìm giá trị của biến a, i, j
 
 public class Bai7 {
 	public static void main(String[] args) {
 		//a
-		int i = 1; int j = 1;
-		int a = i++ + j++;
-
-		System.out.print("a/" + "\n" + "i = " + i + "\n" +
-							"j = " + j + "\n" +
-							"a = " + a + "\n");
+//		int i = 1; int j = 1;
+//		int a = i++ + j++;
+//
+//		System.out.print("a/" + "\n" + "i = " + i + "\n" +
+//							"j = " + j + "\n" +
+//							"a = " + a + "\n");
 
 		//b
 //		int i = 1; int j = 1;

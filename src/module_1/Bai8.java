@@ -1,3 +1,5 @@
+package module_1;
+
 public class Bai8 {
 	public static void main(String[] args) {
 		int i = 2;

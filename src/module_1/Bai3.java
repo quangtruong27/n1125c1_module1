@@ -1,4 +1,4 @@
-//Tính tiền và thuế giá trị gia tăng cho sản phẩm
+package module_1;//Tính tiền và thuế giá trị gia tăng cho sản phẩm
 
 import java.util.Scanner;
 
