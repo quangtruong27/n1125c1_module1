@@ -40,8 +40,8 @@ public class bt11 {
 				nextDay = 1;
 				nextMonth = month + 1;
 
-				if (nextMonth < 1) {
-					nextMonth = 12;
+				if (nextMonth > 12) {
+					nextMonth = 1;
 					nextYear = year + 1;
 				}
 			}
