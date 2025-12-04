@@ -2,6 +2,9 @@ package ss5_loop;
 
 import java.util.Scanner;
 
+/**
+ * Nhập 2 số nguyên dương a và b. Sau đó in ra ước số chung lớn nhất và bội số chung nhỏ nhất của 2 số nguyên dương a và b đó.
+ */
 public class Bt13 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

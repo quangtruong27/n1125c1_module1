@@ -1,5 +1,8 @@
 package ss5_loop;
 
+/**
+ * In hình * sau đây: (chiều dài các cạnh là không cố định)
+ */
 public class Bt18 {
 	public static void main(String[] args) {
 		int n = 6;
