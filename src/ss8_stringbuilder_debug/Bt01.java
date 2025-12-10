@@ -65,7 +65,35 @@ public class Bt01 {
 
 	// e. Viết chương trình phân biệt sự khác nhau giữa so sánh bằng method equals và so sánh bằng toán tử == khi sử dụng String,
 	// StringBuffer và StringBuilder.
-	public static void cauE(){
+	public static void testString() {
+		String s1 = new String("Hello");
+		String s2 = new String("Hello");
+
+		System.out.println("\n=== String ===");
+		System.out.println("s1 == s2 ? " + (s1 == s2));           // false
+		System.out.println("s1.equals(s2) ? " + s1.equals(s2));   // true
+	}
+
+	public static void testStringBuffer() {
+		StringBuffer sb1 = new StringBuffer("Hello");
+		StringBuffer sb2 = new StringBuffer("Hello");
+
+		System.out.println("\n=== StringBuffer ===");
+		System.out.println("sb1 == sb2" + (sb1 == sb2));       // false
+		System.out.println("sb1.equals(sb2)" + sb1.equals(sb2)); // false
+		System.out.println("sb1.toString().equals(sb2.toString())"
+				+ sb1.toString().equals(sb2.toString())); // true
+	}
+
+	public static void testStringBuilder() {
+		StringBuilder sbld1 = new StringBuilder("Hello");
+		StringBuilder sbld2 = new StringBuilder("Hello");
+
+		System.out.println("\n=== StringBuilder ===");
+		System.out.println("sbld1 == sbld2" + (sbld1 == sbld2));       // false
+		System.out.println("sbld1.equals(sbld2)" + sbld1.equals(sbld2)); // false
+		System.out.println("sbld1.toString().equals(sbld2.toString())"
+				+ sbld1.toString().equals(sbld2.toString()));   // true
 	}
 
 	public static void main(String[] args) {
@@ -78,5 +106,9 @@ public class Bt01 {
 		cauC(a, b);
 		cauD();
 
+		// gọi câu e
+		testString();
+		testStringBuffer();
+		testStringBuilder();
 	}
 }
